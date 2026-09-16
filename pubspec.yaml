@@ -1,0 +1,30 @@
+name: airo_device_profile
+description: Runtime device profile, hardware capability signals, memory budget models, and legacy tier classification for Flutter.
+version: 1.0.0
+homepage: https://developerscoffee.com
+repository: https://github.com/DevelopersCoffee/airo_device_profile
+issue_tracker: https://github.com/DevelopersCoffee/airo_device_profile/issues
+documentation: https://github.com/DevelopersCoffee/airo_device_profile#readme
+
+topics:
+  - device-profile
+  - hardware
+  - performance
+  - memory
+  - tv
+
+environment:
+  sdk: ^3.12.2
+  flutter: ">=3.18.0"
+
+dependencies:
+  equatable: ^2.1.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
